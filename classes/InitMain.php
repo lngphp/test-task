@@ -1,5 +1,14 @@
 <?php
+
+/**
+ * @author Roman Borysenko
+ * 
+ */
 class InitMain {
+
+	/**
+	 * @return void
+	 */
 	public function __construct() {
 		$vehicles = [
 		    new WaterVehicle('Yacht'),
