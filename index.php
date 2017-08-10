@@ -16,7 +16,7 @@ $vehicles = [
 ];
 foreach($vehicles as $vehicle) {
 	if (!$vehicle instanceof VehicleBasic) {
-		throw new Exception('Object is not of \'VehicleBasic\' judy_type(array)');
+		throw new Exception('Object is not of \'VehicleBasic\' type');
 	}
 	echo $vehicle->getName().':'.PHP_EOL;
 	if ($vehicle instanceof WaterInterface) {
